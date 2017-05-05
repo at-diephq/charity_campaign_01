@@ -18,6 +18,7 @@ use Validator;
 
 class CampaignController extends BaseController
 {
+    protected $comment;
 
     protected $campaignRepository;
     protected $campaign;
