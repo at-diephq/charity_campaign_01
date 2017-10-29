@@ -56,6 +56,7 @@ class CommentController extends Controller
             $redis->publish('comment', json_encode($result));
         }
 
+        // asdfasfasfd
         return response()->json(['success' => false]);
     }
 }

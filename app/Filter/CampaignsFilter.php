@@ -37,4 +37,8 @@ class CampaignsFilter extends QueryFilter
 
         return $this->builder->where('address', 'LIKE', '%' . $input . '%');
     }
+
+
+
+    
 }
