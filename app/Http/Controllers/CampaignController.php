@@ -315,6 +315,7 @@ class CampaignController extends BaseController
      */
     public function destroy($id)
     {
-        // will remove item in database
+        // will remove item in database asfasfsafasfasfasdf
+        // will remove item in database sdfasfasfasfasfasfasfasf
     }
 }
